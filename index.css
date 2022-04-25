@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #d5e1ef;
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightcoral;
+}
+
+h3 {
+  font-size: 1.375rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.7325rem;
+  margin: 1.5rem 0 1rem 0;
+  color: #1f314f;
+}
+
+p {
+  text-align: center;
+  font-size: 0.9375rem;
+  line-height: 1.18125rem;
+  margin: 0 2rem 2rem 2.5rem;
+  color: #7d889e;
+}
+
+img {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 0.625rem;
+}
+
+footer {
+  text-align: center;
+  margin: 1rem;
+}
+
+footer > p,
+a {
+  font-size: 0.75rem;
+}
+
+.container {
+  margin: 9.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card component */
+.card {
+  padding: 1rem;
+  width: 20rem;
+  height: 31.0625rem;
+  border-radius: 1.25rem;
+  background: #ffffff;
+  box-shadow: 0rem 1.5625rem 1.5625rem rgba(0, 0, 0, 0.0476518);
+}
+
+/* media query for mobile viewport(s) */
+@media screen and (max-width: 400px) {
+  .container {
+    margin: 5.3125rem 1.6875rem;
+  }
+}
